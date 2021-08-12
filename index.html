@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Path</title>
+    <link rel="stylesheet" href="./external.css">
+<style>
+    .blue{
+        background-color: blueviolet;
+        padding: 50px 40px 50px;
+        overflow: auto;
+        height: 500px;
+        width: 500px;
+        border-radius: 1000px;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<style>
+    #Beauty{
+color: brown;
+padding: 4px;
+margin: 40px;
+background-color: burlywood;
+margin: 3px;
+font-size: xx-large;
+font-style:italic;
+overflow-y: auto;
+overflow-x: hidden;
+width: 500px;
+height: 200px;
+    } 
+</style>
+<style>
+    body{
+        background-color: wheat;
+    }
+    @media screen and (max-width:700px){
+        body{
+            background-color: lightblue;
+        }
+    }
+</style>
+</head>
+
+<h1>FORMS USING HTML</h1>    
+<form action="">
+    <h2><span>Name:</span><h2>
+    <input type="text" placeholder="Enter your name" required><br><br>
+    <h2><span>e-mail:</span><h2></h2>
+    <input type="email" placeholder="Enter your email" required><br><br>
+    <h2><span>Mobile number:</span><h2></h2>
+    <input type="tel" placeholder="Enter your mobile number" required><br><br>
+    <h2><span>Password:</span><h2></h2>
+    <input type="password" placeholder="Enter your password" required><br><br>
+    <h2><span>File:</span><h2></h2>
+    <input type="file" placeholder="Upload a file" required><br><br>
+    <h2><span>Select a Language</span> </h2>
+    <label for="Language"></label>
+    <input type="radio" name="Language" id="Tamil" required>
+    <label for="Tamil">FRENCH</label><br>
+    <label for="Language"></label>
+    <input type="radio" name="Language" id="English" required>
+    <label for="English">GERMAN</label><br><br>
+   <h2><span>Select a Country</span></h2>
+    <select name="" id="">
+        <option value="America">(a)America</option>
+        <option value="Australia">(b)Australia</option>
+        <option value="Austria">(c)Austria</option>
+        <option value="Antartica">(d)Antartica</option>
+    </select><br><br>
+   <h2><span>What do you think about this course?</span> <br></h2>
+    <label for="Quote"></label>
+    <input type="checkbox" name="Quote" id="Yes">
+    <label for="Yes">Excellent</label><br>
+    <input type="checkbox" name="Quote" id="Yes">
+    <label for="Yes">Extra-ordinary</label><br>
+  <p><input type="submit" placeholder="SUBMIT"> </p>
+</form>
+</body>
+</html>
